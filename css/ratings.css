@@ -490,3 +490,136 @@ ul{
 	transition: all 0.5s ease;
    }
   }    
+  #h3een{
+    font-size: large;
+    position: absolute;
+    background-color: rgb(3, 8, 79);
+    border: white solid 5px;
+    width: 120px;
+    height: 75px;
+    text-align: center;
+    float: left;
+    margin-left: 980px;
+    margin-top: 80px;
+
+}
+
+  #h2een {
+      font-size: larger;
+      position: absolute;
+      background-color: rgb(3, 8, 79);
+      border: white solid 5px;
+      width: 400px;
+      height: 500px;
+      text-align: center;
+      float: left;
+      margin-left: 240px;
+      margin-top: 100px;
+  }
+
+  #h2twee {
+      font-size: small;
+      position: absolute;
+      background-color: rgb(3, 8, 79);
+      border: white solid 5px;
+      width: 400px;
+      height: 500px;
+      text-align: center;
+      float: left;
+      margin-left: 840px;
+      margin-top: 100px;
+  }
+
+  #h3twee {
+      font-size: large;
+      position: absolute;
+      background-color: rgb(3, 8, 79);
+      border: white solid 5px;
+      width: 120px;
+      height: 75px;
+      text-align: center;
+      float: left;
+      margin-left: 380px;
+      margin-top: 80px;
+     
+  }
+
+  
+  
+  a{
+      color: white;
+  }
+
+  img{
+      padding-top: 10px;
+  }
+
+  a:hover {
+      color:  rgb(207, 207, 207);
+    }
+
+
+    @media only screen and (max-width: 780px) {
+      h1 {
+        display: none;
+      }
+  }
+      @media only screen and (max-width: 780px) {
+      #h3twee {
+          font-size: large;
+          background-color: rgb(3, 8, 79);
+          border: white solid 5px;
+          width: 120px;
+          height: 42px;
+          position:absolute ;
+          text-align: center;
+          float: left;
+          margin-left: 180px;
+          margin-top: 40px;
+      }
+  }
+      @media only screen and (max-width: 780px) {
+      #h2een {
+          font-size: large;
+          background-color: rgb(3, 8, 79);
+          border: white solid 5px;
+          width: 350px;
+          height: 550px;
+          text-align: center;
+          float: left;
+          margin-left: 65px;
+      }
+      @media only screen and (max-width: 780px) {
+      #h3een{ 
+              font-size: large;
+              background-color: rgb(3, 8, 79);
+              border: white solid 5px;
+              width: 120px;
+              height: 42px;
+              position:absolute ;
+              text-align: center;
+              float: left;
+              margin-left: 180px;
+              margin-top: 630px;
+      }
+          
+        
+    }
+    @media only screen and (max-width: 780px) {
+      #h2twee {
+          font-size: large;
+          background-color: rgb(3, 8, 79);
+          border: white solid 5px;
+          width: 350px;
+          height: 550px;
+          text-align: center;
+          float: left;
+          margin-left: 65px;
+      }
+   }
+  }
+
+  body{
+    background-color: black;
+    color: white;
+    }
