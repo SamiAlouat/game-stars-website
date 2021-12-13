@@ -490,3 +490,50 @@ ul{
 	transition: all 0.5s ease;
    }
   }    
+
+
+.merch1{
+  position: relative;
+  top: 30px;
+  left: 150px;
+
+}
+
+.merch2{
+  position: relative;
+  top: 30px;
+  left: 250px;
+  width: 350px;
+  height: 300px;
+}
+
+.merch3{
+  position: relative;
+  top: 30px;
+  left: 400px;
+  width: 350px;
+  height: 300px;
+}
+
+.merch7{
+  position: relative;
+  bottom: 330px;
+  left: 200px;
+  color: white;
+}
+
+.merch8{
+  position: relative;
+  bottom: 370px;
+  left: 480px;
+  color: white;
+}
+
+.merch9{
+  position: relative;
+  bottom: 410px;
+  left: 1100px;
+  color: white;
+  
+  
+}

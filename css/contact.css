@@ -10,6 +10,52 @@ html{
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
 }
+
+td, tr {
+  height: 10vh;
+}
+
+.formulier label {
+    color: white;
+    font-size: 120%;
+    height: 10vh;
+    padding-top: 2vh;
+}
+
+.formulier article {
+    color: white;
+    font-size: 3rem;
+    position: absolute;
+    top:-7vh;
+}
+
+.formulier form {
+    position: absolute;
+    top: 20vh;
+    left: 15vw;
+    padding: 1vh 1vw;
+}
+
+.formulier form input {
+    width: 30vw;
+    height: 5vh;
+}
+
+textarea {
+  width: 30vw;
+}
+
+.berichtomschrijving {
+  position: absolute;
+}
+
+.heks {
+    position: absolute;
+    top: 25vh;
+    right: 5vw;
+}
+
+
 .wrapper{
   background: rgb(25,25,112);
   position: fixed;
@@ -389,8 +435,8 @@ ul{
 }
 
 .footer{
-  position: relative;
-  top: 610px;
+  position: relative  ;
+  top: 84vh;
 	background-color: rgb(25,25,112);
     padding: 10px 0;
 }

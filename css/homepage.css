@@ -565,5 +565,25 @@ onze slide show |
   #r5:checked ~ .s1{
     margin-left: -80%;
   }
+
+
+  @media(max-width: 768px){
+    .slidershow{
+      position: relative;
+      top: 300px;
+      width: 500px;
+      height: 450px;
+      
+    }
+  }
   
 
+@media(max-width: 768px){
+  .navigation{
+    position: absolute;
+    top: 420px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+  }
+}
