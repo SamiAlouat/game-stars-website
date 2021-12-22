@@ -491,7 +491,7 @@ ul{
    }
   }    
   #h3een{
-    font-size: large;
+    font-size: medium;
     position: absolute;
     background-color: rgb(3, 8, 79);
     border: white solid 5px;
@@ -505,7 +505,7 @@ ul{
 }
 
   #h2een {
-      font-size: larger;
+      font-size: medium;
       position: absolute;
       background-color: rgb(3, 8, 79);
       border: white solid 5px;
@@ -531,7 +531,7 @@ ul{
   }
 
   #h3twee {
-      font-size: large;
+      font-size: medium;
       position: absolute;
       background-color: rgb(3, 8, 79);
       border: white solid 5px;
@@ -566,7 +566,7 @@ ul{
   }
       @media only screen and (max-width: 780px) {
       #h3twee {
-          font-size: large;
+          font-size: medium;
           background-color: rgb(3, 8, 79);
           border: white solid 5px;
           width: 120px;
@@ -591,7 +591,7 @@ ul{
       }
       @media only screen and (max-width: 780px) {
       #h3een{ 
-              font-size: large;
+              font-size: medium;
               background-color: rgb(3, 8, 79);
               border: white solid 5px;
               width: 120px;

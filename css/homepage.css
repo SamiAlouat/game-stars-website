@@ -498,6 +498,7 @@ onze slide show |
   body{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
     
   }
   .slidershow{
