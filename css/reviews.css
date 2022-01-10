@@ -11,7 +11,7 @@ html{
   font-family: 'Poppins', sans-serif;
 }
 .wrapper{
-  background: rgb(25,25,112);
+  background: #082C61;
   position: fixed;
   width: 100%;
 }
@@ -391,7 +391,7 @@ ul{
 .footer{
   position: relative;
   top: 610px;
-	background-color: rgb(25,25,112);
+	background-color: #082C61;
     padding: 10px 0;
 }
 

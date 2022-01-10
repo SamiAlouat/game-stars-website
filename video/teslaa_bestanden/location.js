@@ -1,1 +1,0 @@
-jsonFeed({"country":"NL","state":"ZH","stateName":"South Holland","zipcode":"2202","timezone":"Europe/Amsterdam","latitude":"52.24630","longitude":"4.42260","city":"Noordwijk aan Zee","continent":"EU"});
