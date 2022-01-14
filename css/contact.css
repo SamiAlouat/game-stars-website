@@ -101,7 +101,7 @@ nav .content .links{
 }
 .content .links li a:hover,
 .content .links li label:hover{
-  background: #323c4e;
+  background: grey;
 }
 .wrapper .search-icon,
 .wrapper .menu-icon{
@@ -435,8 +435,8 @@ ul{
 }
 
 .footer{
-  position: relative  ;
-  top: 84vh;
+  position: relative;
+  top: 85vh;
 	background-color: #082C61;
     padding: 10px 0;
 }
