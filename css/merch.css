@@ -9,7 +9,7 @@ html{
   box-sizing: border-box;
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
-  
+ 
   
 }
 .wrapper{
@@ -392,7 +392,7 @@ ul{
 
 .footer{
   position: relative;
-  top: 810px;
+  top: 470px;
 	background-color: #082C61;
     padding: 10px 0;
 }
@@ -542,5 +542,45 @@ ul{
 .merchtext3{
   display: none;
 }
+
+/*
+merch --|
+        v
+*/
+
+.image1{
+  position: relative;
+  width: 700px;
+  height:550px;
+  top: 100px;
+  left:200px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+
+.image2{
+  position: relative;
+  width: 200px;
+  height:200px;
+  top: 325px;
+  right:505px;
+}
+
+.image3{
+  position: relative;
+  width: 200px;
+  height:200px;
+  top: 325px;
+  right:490px;
+}
+
+h1{
+  position: relative;
+  left: 980px;
+  bottom: 455px;
+  color: white;
+}
+
 
 
