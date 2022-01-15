@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 html{
-  background-color:black;
+  background-color: black;
 }
 
 *{
@@ -392,7 +392,7 @@ ul{
 
 .footer{
   position: relative;
-  top: 470px;
+  top: 270px;
 	background-color: #082C61;
     padding: 10px 0;
 }
@@ -573,14 +573,167 @@ merch --|
   height:200px;
   top: 325px;
   right:490px;
+  
 }
 
 h1{
   position: relative;
-  left: 980px;
+  left: 1080px;
   bottom: 455px;
   color: white;
+  
 }
+
+p{
+  position: relative;
+  bottom: 435px;  
+  left: 1087px;
+  color: white;
+  
+}
+
+
+.dropdown {
+  position: relative;
+  bottom: 410px;
+  left: 1085px;
+  display: inline-block;
+  color: white;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffab00;
+  min-width: 160px;
+  box-shadow: 0px 2px 5px 0px white;
+  padding: 12px 16px;
+  z-index: 1;
+  color: white;
+  border-radius: 3px;
+  list-style: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.dropdown:hover{
+  background-color: grey;
+}
+
+.button {
+  position: relative;
+  bottom: 340px;
+  left: 1025px;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  background-color: #ffab00;
+  border: none;
+  border-radius: 10px;
+}
+
+.button:active {
+  background-color: white;
+  box-shadow: 0 5px #ffab00;
+  transform: translateY(4px);
+}
+ 
+
+.button1 {
+  position: relative;
+  left: 1040px;
+  bottom: 343px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button2 {
+  border-radius: 5px;
+  background-color: black; 
+  color: white; 
+  border: 1px solid white;
+}
+
+
+.button2:hover {
+  background-color: white;
+  color: black;
+}
+
+.button2:active {
+  background-color: white;
+  box-shadow: 0 5px #ffab00;
+  transform: translateY(4px);
+}
+
+.bus{
+  position: relative;
+  bottom: 253px;
+  left: 640px;
+  width: 60px;
+}
+
+.text1{
+  position: relative;
+  left: 1140px;
+  bottom: 310px;
+  color: white;
+}
+
+a{
+  color: white;
+}
+
+.my{
+  color: white;
+  top: 100px;
+  position: relative;
+  left: 200px;
+}
+
+
+.fruit{
+  position: relative;
+  left: 200px;
+  top: 150px;
+  width: 250px;
+  height: 350px;
+}
+
+.tshirt{
+  position: relative;
+  left: 250px;
+  top: 154px;
+  width: 250px;
+  height: 350px;
+}
+
+
+.shirt{
+  position: relative;
+  left: 300px;
+  top: 154px;
+  width: 250px;
+  height: 350px;
+}
+
+
 
 
 
