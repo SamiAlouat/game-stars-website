@@ -390,7 +390,7 @@ ul{
 
 .footer{
   position: relative;
-  top: 100;
+  top: 100px;
 	background-color: #082C61;
     padding: 10px 0;
 }
@@ -491,7 +491,12 @@ ul{
    }
   }    
 
-
+.video{
+ position: relative;
+ top: 100px;
+  width: 1820px;
+  height: 810px;
+}
 
 
 
