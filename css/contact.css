@@ -3,57 +3,6 @@ html{
   background-color:black;
 }
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  font-family: 'Poppins', sans-serif;
-}
-
-td, tr {
-  height: 10vh;
-}
-
-.formulier label {
-    color: white;
-    font-size: 120%;
-    height: 10vh;
-    padding-top: 2vh;
-}
-
-.formulier article {
-    color: white;
-    font-size: 3rem;
-    position: absolute;
-    top:-7vh;
-}
-
-.formulier form {
-    position: absolute;
-    top: 20vh;
-    left: 15vw;
-    padding: 1vh 1vw;
-}
-
-.formulier form input {
-    width: 30vw;
-    height: 5vh;
-}
-
-textarea {
-  width: 30vw;
-}
-
-.berichtomschrijving {
-  position: absolute;
-}
-
-.heks {
-    position: absolute;
-    top: 25vh;
-    right: 5vw;
-}
 
 
 .wrapper{
@@ -536,3 +485,99 @@ ul{
 	transition: all 0.5s ease;
    }
   }    
+
+
+  #contact {
+    background-color: white;
+  }
+  
+  td, tr {
+    height: 10vh;
+  }
+  
+  .formulier label {
+      color: black;
+      font-size: 120%;
+      height: 10vh;
+      padding-top: 2vh;
+  }
+  
+  .formulier article {
+      color: white;
+      font-size: 3rem;
+      position: absolute;
+      top: -8vh;
+  }
+  
+  .formulier form {
+      position: absolute;
+      top: 15vh;
+      left: 18vw;
+      padding: 1vh 1vw;
+  }
+  
+  .formulier form input {
+      width: 30vw;
+      height: 5vh;
+      border: 2px solid black;
+  }
+  
+  .formulier SELECT {
+    width: 30vw;
+    height: 5vh;
+    position: absolute;
+  }
+  
+  #verzendknop {
+    left: 18px;
+    bottom: -13%;
+  }
+  
+  #omschrijving {
+    border: 2px solid black;
+  }
+  
+  select {
+    border: 2px solid black;
+  }
+  
+  textarea {
+    width: 30vw;
+  }
+  
+  .berichtomschrijving {
+    position: absolute;
+  }
+  
+  .heks {
+      position: absolute;
+      top: 25vh;
+      right: 15vw;
+  }
+  
+  @media screen and (max-width: 768px){
+  
+    .formulier form {
+      width: 65%;
+  }
+  
+    .formulier form input {
+      width: 95%;
+  }
+  
+    #verzendknop {
+      width: 85%;
+    }
+  
+    #omschrijving {
+      width: 172%;
+    }
+  
+    .formulier select {
+      width: 95%;
+    }
+    .heks{
+      display: none;
+    }
+
+  }

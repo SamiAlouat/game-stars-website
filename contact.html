@@ -39,7 +39,6 @@
   </div>
 
 <!-- formulier-->
-
 <div class="formulier">
   <form id="contact" action="#">
     <article><h1>Contact</h1></article>
@@ -47,16 +46,22 @@
             <tr><td><label for="vnaam">Voornaam*<br></label><input type="text" name="voornaam" placeholder="Voornaam*"></td></tr>
             <tr><td><label for="anaam">Achternaam*<br></label><input type="text" name="achternaam" placeholder="Achternaam*"></td></tr>
             <tr><td><label for="email">Email*<br></label><input type="email" name="emailadres" placeholder="Email Adres*"></td></tr>
-            <tr><td><label for="bericht">Bericht*<br></label><input type="tel" name="omschrijving" placeholder="Schrijf uw bericht hier*"></td></tr>
-            <tr><td><input type="submit" value="Verzenden"></td></tr>
+            <tr><td><label for="ow">Onderwerp*<br></label><SELECT NAME="onderwerp">
+              <OPTION>Ik heb een vraag</OPTION>
+              <OPTION>Ik heb een opmerking</OPTION>
+              <OPTION>Ik wil een game aanraden</OPTION>
+              <OPTION>Ik wil een compliment geven</OPTION>
+              <OPTION>Iets anders</OPTION>
+              </SELECT></td></tr>
+            <tr><td></label><textarea id="omschrijving" placeholder="Schrijf uw bericht hier*" style="height: 100px; margin-top: 50px;"></textarea></td></tr>
         </table>
+        <tr><td><input type="submit" id="verzendknop" value="Verzenden"></td></tr>
 </form>
 </div>
 
 <div class="heks">
 <img src="images/gif.gif" alt="">
 </div>
-
 
   <! -- dit is de footer -->
   <footer class="footer">
