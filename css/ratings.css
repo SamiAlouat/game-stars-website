@@ -451,12 +451,14 @@ ul{
   .footer-col{
     width: 50%;
     margin-bottom: 30px;
+    
 }
 
 @media(max-width: 767px){
   .footer-col{
     width: 50%;
     margin-bottom: 30px;
+    
 }
 }
 @media(max-width: 574px){
@@ -546,8 +548,8 @@ ul{
 @media screen and (max-width: 760px) {
   #Rating {
     position: relative;
-    top: 200px;
-    left: 75px;
+    top: 30px;
+    left: 50px;
     font-size: x-small;
   margin-left: 16%;
   margin-top: 25%;
@@ -558,11 +560,13 @@ ul{
 @media screen and (max-width: 760px) {
   .t3 {
     position: relative;
-    top: 100px;
+    bottom: 600px;
+    left: 40px;
     font-size: xx-small ;
   margin-left: 27%;
   margin-top: 145%;
   color: white;
+  
   }
 }
 
