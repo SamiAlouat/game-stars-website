@@ -734,6 +734,12 @@ a{
 }
 
 
+@media screen and (min-width: 486px) and (max-width: 768px) {
+  .image2{
+    display: none;
+  }
+ 
 
+}
 
 

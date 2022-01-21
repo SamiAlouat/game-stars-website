@@ -10,6 +10,14 @@ html{
   text-decoration: none;
   font-family: 'Poppins', sans-serif;
 }
+
+.video{
+  position: relative;
+  top: 100px;
+   width: 1820px;
+   height: 810px;
+ }
+
 .wrapper{
   background: #082C61;
   position: fixed;
@@ -227,6 +235,12 @@ nav .content .links{
   }
 }
 @media screen and (max-width: 400px){
+
+  .video {
+
+    width: 100%;
+  }
+
   .wrapper nav{
     padding: 0 10px;
   }
@@ -491,12 +505,7 @@ ul{
    }
   }    
 
-.video{
- position: relative;
- top: 100px;
-  width: 1820px;
-  height: 810px;
-}
+
 
 
 

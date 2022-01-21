@@ -504,114 +504,71 @@ ul{
 
 
   
-  .reviews {
-      position: relative;
-      top: 120px;
-      right: 200;
-    display: block;
-    align-items: left;
-    max-width: 447px;
-    width: 100%;
-    border-radius: 10px;
-    background-color: white;
-    padding: 25px 0 69px 0;
-    margin: 0 auto;
-  }
-  
-  .reviews__heading {
-    font-size: 32px;
-    color: #323357;
-    font-family: "Muli";
-    font-weight: 700;
-    text-align: center;
-    margin: 28px 0;
-  }
-  
-  .reviews__average-ratings {
-    margin-bottom: 63px;
-  }
-  
-  .average-ratings__stars {
-    display: flex;
-    align-items: center;
-    padding: 0 25px;
-    width: 347px;
-    height: 63px;
-    border-radius: 32px;
-    background-color: #f5f8ff;
-    margin-bottom: 8px;
-  }
-  
-  .stars__average-rating-score {
-    font-size: 16px;
-    color: #323357;
-    font-family: "Muli";
-    font-weight: 400;
-    margin-left: auto;
-  }
-  
-  .average-ratings__total-customers {
-    font-size: 16px;
-    color: #595b71;
-    font-family: "Muli";
-    font-weight: 400;
-    text-align: center;
-  }
-  
-  .reviews__breakdown {
-    display: flex;
-    margin-bottom: 44px;
-  }
-  
-  .reviews-breakdown__wrapper {
-    margin: 0 auto;
-  }
-  
-  .reviews__single-star-average {
-    display: flex;
-    margin: 22px 0;
-  }
-  
-  .reviews__single-star-average:first-child {
-    margin-top: 0;
-  }
-  
-  .single-star-average__amount {
-    font-size: 18px;
-    color: #2a5bda;
-    font-family: "Muli";
-    font-weight: 400;
-  }
-  
-  .single-star-average__progress-bar {
-    max-width: 280px;
-    width: 280px;
-    border-radius: 10px;
-    background-color: #f5f8ff;
-    padding: 1px;
-    margin: 0 10px;
-  }
-  
-  .progress-bar__data {
-    width: 100%;
-    height: 100%;
-    padding: 2px;
+.eerste{
+  width: 400px;
+  height: 200px;
+  position: relative;
+  top: 100px;
+  left: 70px;
+  background-color: grey;
+  border: 1px solid;
+  border-radius: 10px;
+  color: #ffffff;
+}
 
-    border: none;
-  }
+.tweede{
+  width: 400px;
+  height: 200px;
+  position: relative;
+  top: 120px;
+  left: 70px;
+  background-color: grey;
+  border: 1px solid;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.derde{
+  width: 400px;
+  height: 200px;
+  position: relative;
+  top: 150px;
+  left: 70px;
+  background-color: grey;
+  border: 1px solid;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+.checked{
+  position: relative;
+  left: 10px;
+    color: orange;
+}
   
-  .progress-bar__data[value]::-webkit-progress-bar {
-    background-color: whiteSmoke;
-    border-radius: 10px;
-  }
+.foto1{
+  position: relative;
+  top: 15px;
+  border: 1px solid;
+  border-radius: 50%;
+}
+
+.foto2{
+  position: relative;
+  top: 15px;
+  border: 1px solid;
+  border-radius: 50%;
+}
+
+
+.foto3{
+  position: relative;
+  top: 15px;
+  border: 1px solid;
+  border-radius: 50%;
+} 
   
-  .progress-bar__data[value]::-webkit-progress-value {
-    border-radius: 8px;
-    filter: drop-shadow(0px 4px 5px rgba(255, 204, 72, 0.53));
-    background: #ffcc48;
-  }
   
- 
   
   
 
